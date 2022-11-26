@@ -12,8 +12,14 @@ import java.util.UUID;
 public class GitTest {
     public static void main(String[] args) {
         String uuId = UUID.randomUUID().toString();
-        System.out.println(uuId);
+
         System.out.println("Hello Git!!!");
         System.out.println("switch version test!");
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println(uuId);
+            }
+        }).start();
     }
 }
