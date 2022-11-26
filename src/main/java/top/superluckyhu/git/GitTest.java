@@ -1,5 +1,7 @@
 package top.superluckyhu.git;
 
+import java.util.UUID;
+
 /**
  * @ClassName GitTest
  * @Description TODO
@@ -9,6 +11,8 @@ package top.superluckyhu.git;
  **/
 public class GitTest {
     public static void main(String[] args) {
+        String uuId = UUID.randomUUID().toString();
+        System.out.println(uuId);
         System.out.println("Hello Git!!!");
         System.out.println("switch version test!");
     }
