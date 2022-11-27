@@ -16,6 +16,7 @@ public class GitTest {
         System.out.println("show me conflict");
         System.out.println("Hello Git!!!");
         System.out.println("switch version test!");
+        System.out.println("github pull test!");
         new Thread(new Runnable() {
             @Override
             public void run() {
